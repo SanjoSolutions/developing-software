@@ -15,7 +15,7 @@ describe('partial sum', () => {
       .toEqual(1 / 2 + 1 / 4 + 1 / 8)
   })
 
-  it('works for the ficonacci series', () => {
+  it('works for the Fibonacci series', () => {
     expect(partialSum(fibonacciSeries, 3)).toEqual(4)
   })
 })
